@@ -37,17 +37,11 @@ as the code or os.chdir function needs to be added to the codes making plots if 
 is different from the directory of csv files on your local machine. Below is a quick explanation of what 
 each csv files contains:
 1. scale_rates2.csv - scale rates for the Trilegal model
-<br />
 2. final_rates2.csv - rates for each type of cosmic explosion for the Trilegal Model
-<br />
 3. Scale_rates_aluminum_ferum.csv - scale rates for the isotope model
-<br />
 4. rates-Al-Fe.csv - rates for each type of cosmic explosion for the Isotope Model
-<br />
 5. CCSN_zheights.csv - rates for CCSN for different solar heights for the Trilegal Model
-<br />
 6. SN_zheights -> Type Ia rates for different solar heights for the Trilegal model
-
 ## Conducting Calculations
 These files conduct calculations mentioned in our tables and results section. No csv files needed
 to replicate the results. 
