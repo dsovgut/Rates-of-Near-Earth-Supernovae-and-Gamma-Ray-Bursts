@@ -1,18 +1,17 @@
 # Rates-of-Near-Earth-Supernovae-and-Gamma-Ray-Bursts
-This code repository includes all the coding used to generate results in the paper Cosmic Hazard Forecast:  Rates of Near-Earth Supernovae and Gamma-Ray Bursts. 
-The codes included generate datasets, plots, and calculations displayed in the paper. 
-At the top of the each code, the inputs such as rates for cosmic explosions or scale heights and radius are defined. 
-If one wishes to use our model with different inputs, he/she only needs to change the inputs and run the code to generate
-the plots and results with his/her inputs. 
+This code repository includes all the software used to generate results in the paper titled "Cosmic Hazard Forecast:  Rates of Near-Earth Supernovae and Gamma-Ray Bursts" by Brian Fields, Danylo Sovgut, Ashvini Krishnan,and Alexandra Trauth. The codes generate datasets, plots, and calculations displayed in the paper. 
+At the top of the each code file, the inputs such as rates for cosmic explosions or scale heights and radius are defined. 
+If one wishes to use our model with different inputs, he/she only needs to change the inputs and rerun the code to generate
+the plots. 
 ### Prerequisites
 All the codes are generated in Python and no other software is needed in addition to standart 
-Python packages (such as matplotlib or numpy that already come with Anaconda) are needed.
+Python packages (such as matplotlib or numpy that already come with Anaconda).
 
 ## 1. Generating Datasets for Plots:
 This folder includes three files that generate rates for cosmic explosions at various distances. 
 Since the full integration of the rate at a given distance is computationally intensive and time consuming, 
-it makes sense to make the plots from the datasets directly. Each of these files generates a dataset for our plots. 
-However, if one wishes to change the inputs to our model and generate and new dataset and make a new plot, he/she can use 
+it makes sense to make the plots from the datasets directly. Each of these files generates different datasets required to make our plots. 
+However, if one wishes to change the inputs to our model and generate and new dataset, he/she can use 
 these codes. <br />
 Each file generates two csv datasets. One file contains rates for the thick and thin height and radius. In the appendix of our paper,
 we describe in-depth why that is the only calculation needed to generate the cosmic explosion rates.
