@@ -1,11 +1,10 @@
 # Rates-of-Near-Earth-Supernovae-and-Gamma-Ray-Bursts
-This code repository includes all the software used to generate results in the paper titled "Cosmic Hazard Forecast:  Rates of Near-Earth Supernovae and Gamma-Ray Bursts" by Brian Fields, Danylo Sovgut, Ashvini Krishnan,and Alexandra Trauth. The codes generate datasets, plots, and calculations displayed in the paper. 
+This code repository includes all the software used to generate results in a paper in final preparation and titled "Cosmic Hazard Forecast:  Rates of Near-Earth Supernovae and Gamma-Ray Bursts" by Brian Fields, Danylo Sovgut, Ashvini Krishnan,and Alexandra Trauth. The codes generate datasets, plots, and calculations displayed in the paper. 
 At the top of the each code file, the inputs such as rates for cosmic explosions or scale heights and radius are defined. 
 If one wishes to use our model with different inputs, he/she only needs to change the inputs and rerun the code to generate
 the plots. 
 ### Prerequisites
-All the codes are generated in Python and no other software is needed in addition to standart 
-Python packages (such as matplotlib or numpy that already come with Anaconda).
+All the codes are generated in Python, and use matplotlib and numpy.
 
 ## 1. Generating Datasets for Plots:
 This folder includes three files that generate rates for cosmic explosions at various distances. 
